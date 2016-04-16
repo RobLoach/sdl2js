@@ -1,0 +1,18 @@
+{
+  "name": "node-sdl",
+  "version": "0.0.1",
+  "description": "Bindings for SDL2 in Node.js.",
+  "main": "index.js",
+  "author": "Rob Loach <robloach@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ffi-generate": "0.0.8"
+  },
+  "scripts": {
+    "build": "make",
+    "test": "node test"
+  },
+  "dependencies": {
+    "extend-shallow": "^2.0.1"
+  }
+}
